@@ -1,0 +1,55 @@
+.calendar table .event .event-name {
+  padding: 0.5rem;
+  border-bottom: 1px solid #dee2e6!important;
+}
+
+.event {
+  /*height: 160px;*/
+  /*border-right: 1px solid grey;*/
+}
+
+.calendar .table thead th {
+  padding: 2rem;
+}
+
+.event p {
+  /*border-right: 1px solid grey;*/
+}
+
+.event-name.one-event {
+  height: 40px;
+}
+
+.event-name.two-event {
+  height: 80px;
+}
+
+.event-name.three-event {
+  height: 120px;
+}
+
+.event-name.four-event {
+  height: 160px;
+}
+
+.event-name.event-type-one {
+  background-color: rgb(176,243,252);
+}
+
+.event-name.event-type-two {
+  background-color: black;
+  color: white;
+}
+
+.event-name.event-type-three {
+  background-color: rgba(235,235,235,0.69);
+}
+
+.event-name.event-type-four {
+  background-color: white;
+}
+
+.calendar table {
+  font-size: 12px;
+}
+
