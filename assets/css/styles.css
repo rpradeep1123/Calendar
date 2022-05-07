@@ -1,35 +1,54 @@
 .calendar table .event .event-name {
   padding: 0.5rem;
-  border-bottom: 1px solid #dee2e6!important;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
 }
 
-.event {
-  /*height: 160px;*/
-  /*border-right: 1px solid grey;*/
+.calendar table .event .left-header .event-name {
+  padding: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
+}
+
+.calendar table .event .left-header .event-name {
+  padding: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+  /*text-overflow: ellipsis;*/
+  /*overflow: hidden;*/
+  /*white-space: nowrap;*/
+}
+
+.calendar.weekly .table thead th {
+  padding: 1rem;
+  width: 10%;
 }
 
 .calendar .table thead th {
   padding: 2rem;
-}
-
-.event p {
-  /*border-right: 1px solid grey;*/
+  width: 15%;
 }
 
 .event-name.one-event {
-  height: 40px;
+  height: 25px;
 }
 
 .event-name.two-event {
-  height: 80px;
+  height: 50px;
 }
 
 .event-name.three-event {
-  height: 120px;
+  height: 75px;
 }
 
 .event-name.four-event {
-  height: 160px;
+  height: 100px;
 }
 
 .event-name.event-type-one {
@@ -50,6 +69,42 @@
 }
 
 .calendar table {
-  font-size: 12px;
+  font-size: 10px;
+  width: 100%;
+}
+
+.position-absolute {
+  /*position: absolute;*/
+}
+
+.event-name p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.event-name.event-type-five {
+  background: url(../../assets/img/pinpng.com-fantasy-map-icons-png-1444068.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgba(235,235,235,0.69);
+}
+
+.calendar.monthly table .event .event-name {
+  border: 1px solid white;
+  border-bottom: none;
+  width: 140px;
+}
+
+.calendar.monthly table .event .event-name.month-day {
+  text-align: center;
+}
+
+.calendar.monthly table .event .event-name.month-day.next-month-day, .calendar.monthly table .event .event-name.month-day.previous-month-day {
+  color: rgb(186,186,186);
+}
+
+.event {
+  height: 100px;
 }
 
