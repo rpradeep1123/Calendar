@@ -2,6 +2,7 @@
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
+  cursor: pointer;
   /*text-overflow: ellipsis;*/
   /*overflow: hidden;*/
   /*white-space: nowrap;*/
@@ -80,7 +81,7 @@
 .event-name p {
   text-overflow: ellipsis;
   overflow: hidden;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 
 .event-name.event-type-five {
@@ -106,5 +107,57 @@
 
 .event {
   height: 100px;
+}
+
+.dropdown-menu {
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: underline;
+}
+
+.appointment .form-control {
+  font-size: 12px;
+  border: 0;
+  background-color: rgb(224,224,224);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.appointment button.form-control {
+  /*font-size: 12px;*/
+  border: 1px solid;
+  /*background-color: rgb(224,224,224);*/
+  /*height: 25px;*/
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.form-control.title {
+  font-size: 16px;
+}
+
+.appointment.dropdown-menu {
+  background-color: white;
+}
+
+.dropdown-menu a {
+  text-decoration: underline;
+}
+
+.custom-control-label::before {
+  opacity: 0;
+}
+
+.custom-control-input {
+  opacity: 1;
+}
+
+.list-group-item {
+  border: 0;
+  padding: 0.25rem 0;
 }
 
