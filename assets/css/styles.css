@@ -1,4 +1,4 @@
-.calendar table .event .event-name {
+.calendar .table .event .event-name {
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
@@ -8,7 +8,7 @@
   /*white-space: nowrap;*/
 }
 
-.calendar table .event .left-header .event-name {
+.calendar .table .event .left-header .event-name {
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
@@ -17,7 +17,7 @@
   /*white-space: nowrap;*/
 }
 
-.calendar table .event .left-header .event-name {
+.calendar .table .event .left-header .event-name {
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
@@ -69,9 +69,10 @@
   background-color: white;
 }
 
-.calendar table {
+.calendar .table {
   font-size: 10px;
   width: 100%;
+  /*padding: 1rem;*/
 }
 
 .position-absolute {
@@ -159,5 +160,12 @@
 .list-group-item {
   border: 0;
   padding: 0.25rem 0;
+}
+
+.calendar .calendar-header-weekly {
+  background-color: transparent !important;
+  color: black;
+  padding: 1rem;
+  font-weight: bold;
 }
 
