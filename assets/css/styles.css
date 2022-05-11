@@ -1,29 +1,42 @@
-.calendar .table .event .event-name {
-  padding: 0.5rem;
-  border-bottom: 1px solid #dee2e6;
-  position: relative;
-  cursor: pointer;
-  /*text-overflow: ellipsis;*/
-  /*overflow: hidden;*/
-  /*white-space: nowrap;*/
+@media (min-width: 300px) and (max-width: 800px) {
+  .calendar .table .event .event-name {
+    padding: 0.25rem;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 800px) {
+  .calendar .table .event .event-name {
+    padding: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+    cursor: pointer;
+    /*border-right: 1px solid #dee2e6;*/
+  }
+}
+
+@media (min-width: 300px) and (max-width: 756px) {
+  .calendar.monthly .table .event .event-name {
+    padding: 0;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+    cursor: pointer;
+    /*border-right: 1px solid #dee2e6;*/
+  }
 }
 
 .calendar .table .event .left-header .event-name {
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
-  /*text-overflow: ellipsis;*/
-  /*overflow: hidden;*/
-  /*white-space: nowrap;*/
 }
 
 .calendar .table .event .left-header .event-name {
   padding: 0.5rem;
   border-bottom: 1px solid #dee2e6;
   position: relative;
-  /*text-overflow: ellipsis;*/
-  /*overflow: hidden;*/
-  /*white-space: nowrap;*/
 }
 
 .calendar.weekly .table thead th {
@@ -36,20 +49,100 @@
   width: 15%;
 }
 
-.event-name.one-event {
-  height: 25px;
+@media (min-width: 1280px) {
+  .event-name.one-event {
+    height: 25px;
+  }
 }
 
-.event-name.two-event {
-  height: 50px;
+@media (min-width: 767px) and (max-width: 1280px) {
+  .event-name.one-event {
+    height: 25px;
+  }
 }
 
-.event-name.three-event {
-  height: 75px;
+@media (min-width: 480px) and (max-width: 767px) {
+  .event-name.one-event {
+    height: 15px;
+  }
 }
 
-.event-name.four-event {
-  height: 100px;
+@media (min-width: 320px) and (max-width: 480px) {
+  .event-name.one-event {
+    height: 12.5px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .event-name.two-event {
+    height: 50px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .event-name.two-event {
+    height: 50px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .event-name.two-event {
+    height: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .event-name.two-event {
+    height: 25px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .event-name.three-event {
+    height: 75px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .event-name.three-event {
+    height: 75px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .event-name.three-event {
+    height: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .event-name.three-event {
+    height: 16.7px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .event-name.four-event {
+    height: 100px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .event-name.four-event {
+    height: 100px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .event-name.four-event {
+    height: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .event-name.four-event {
+    height: 50px;
+  }
 }
 
 .event-name.event-type-one {
@@ -72,17 +165,15 @@
 .calendar .table {
   font-size: 10px;
   width: 100%;
-  /*padding: 1rem;*/
 }
 
 .position-absolute {
-  /*position: absolute;*/
 }
 
 .event-name p {
   text-overflow: ellipsis;
   overflow: hidden;
-  /*white-space: nowrap;*/
+  white-space: nowrap;
 }
 
 .event-name.event-type-five {
@@ -98,16 +189,36 @@
   width: 140px;
 }
 
-.calendar.monthly table .event .event-name.month-day {
+.calendar.monthly .table .event .event-name.month-day {
   text-align: center;
 }
 
-.calendar.monthly table .event .event-name.month-day.next-month-day, .calendar.monthly table .event .event-name.month-day.previous-month-day {
+.calendar.monthly .table .event .event-name.month-day.next-month-day, .calendar.monthly .table .event .event-name.month-day.previous-month-day {
   color: rgb(186,186,186);
 }
 
-.event {
-  height: 100px;
+@media (min-width: 1280px) {
+  .event {
+    height: 100px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .event {
+    height: 100px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .event {
+    height: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .event {
+    height: 50px;
+  }
 }
 
 .dropdown-menu {
@@ -127,10 +238,7 @@
 }
 
 .appointment button.form-control {
-  /*font-size: 12px;*/
   border: 1px solid;
-  /*background-color: rgb(224,224,224);*/
-  /*height: 25px;*/
 }
 
 .bg-none {
@@ -167,5 +275,13 @@
   color: black;
   padding: 1rem;
   font-weight: bold;
+}
+
+.monthly .event {
+  /*border-left: 1px solid #dee2e6;*/
+}
+
+.event {
+  border-right: 1px solid #dee2e6;
 }
 
